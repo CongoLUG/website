@@ -1,0 +1,21 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "Congo LUG website. A platform for all congolese Linux devs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CongoLUG/website.git"
+  },
+  "keywords": [
+    "CongolLUG"
+  ],
+  "author": "Jacques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CongoLUG/website/issues"
+  }
+}
