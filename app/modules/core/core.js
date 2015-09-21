@@ -5,9 +5,11 @@
 */
 
 (function() {
-    
-    console.log("starting core.js module");
 
     /* list all the dependancies */
     var core = angular.module('core', []);
+
+    core.controller('coreController', ['$scope'], function($scope) { 
+    	console.log("starting core.js module"); 
+    })
 })();
