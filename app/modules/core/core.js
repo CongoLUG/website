@@ -7,9 +7,10 @@
 (function() {
 
     /* list all the dependancies */
-    var core = angular.module('core', []);
+    var core = angular.module('core', ['blog', 'chat']);
 
-    core.controller('coreController', ['$scope'], function($scope) { 
-    	console.log("starting core.js module"); 
-    })
+    core.controller('coreController', ['$scope', 
+    	function($scope) { 
+    		console.log("starting core.js module"); 
+    	}])
 })();
