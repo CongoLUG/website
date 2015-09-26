@@ -4,6 +4,8 @@
      @brief  : core.js javascript script
 */
 
+console.log("starting the core module");
+
 (function() {
 
     /* list all the dependancies */
